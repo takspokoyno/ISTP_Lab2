@@ -11,8 +11,8 @@
         public int Likes { get; set; }
         public int CategoryId { get; set; }
         public int PublicId { get; set; }
-        public virtual Public Public { get; set; }
-        public virtual Category Category { get; set; }
-        public virtual ICollection<Comment> Comments { get; set; }
+        public virtual Public? Public { get; set; }
+        public virtual Category? Category { get; set; }
+        public virtual ICollection<Comment>? Comments { get; set; }
     }
 }
